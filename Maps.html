@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maps</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-green bg-dark">
+        <a class="navbar-brand" href="#">GaGoogle</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#accessibility">Accessibility</a></li>
+                <li class="nav-item"><a class="nav-link" href="#external-resources">External Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="#forms-validation"> Forms Validation</a></li>
+                <li class="nav-item"><a class="nav-link" href="#iframes"> Iframes and Embedded Content</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <section id="accessibility">
+            <h2>Accessibility</h2>
+            <img src="maps 1.png" alt="Map logo">
+            <p>Using <abbr title="Hypertext Markup Language">HTML</abbr> and <cite>Bootstrap</cite> for better
+                accessibility. </p>
+        </section>
+
+        <section id="external-resources" class="mt-5">
+            <h2>External Resources</h2>
+            <script src="script.js"></script>
+        </section>
+
+        <section id="forms-validation" class="mt-5">
+            <h2>HTML Forms Validation</h2>
+            <script src="script.js"></script>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="password">Password: </label>
+                <input type="password" id="password" name="password" min="6" max="12" required><br><br>
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate" required><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="iframes" class="mt-5">
+            <h2>Iframes and Embedded Content</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.1483152758737!2d-122.07972938489088!3d37.40296297981061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbc81c579d9e3%3A0x3bc79e38edfdf9b2!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1600160866871!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="mt-4">
+                <a class="twitter-timeline" data-width="300" data-height="300"
+                    href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
